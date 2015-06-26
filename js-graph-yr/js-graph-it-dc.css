@@ -1,0 +1,41 @@
+﻿.draggable
+{
+	position: absolute;
+	cursor: move;
+	z-index: 1;
+}
+
+.clickable
+{
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.dock_point
+{
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	padding: 0px !important;
+	border: none !important;
+	margin: 0px !important;
+	position: absolute;
+	font-size: 1px;
+	visibility: hidden;
+}
+
+ .canvas {
+            font-family:Tahoma;
+        }
+        .block {position:absolute;
+                /*border:1px solid #7dab76;
+                background-color:#CBCECE;
+                padding:3px;*/
+        }
+        .connector {
+            background-color:blue;
+        }
+        .source-label, .middle-label, .destination-label {
+            padding:5px;
+        }
